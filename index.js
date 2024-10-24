@@ -1,7 +1,7 @@
 let currentSlide = 0;
 const apiKey = 'PBQ3tOSKUj1qc6knIuno9aWBUz8G8kin0hDQP58JTAXtHnz0ngyIXJcu';  // Reemplaza con tu clave API de Pexels
 const landingData = JSON.parse(localStorage.getItem('landingData') || '{}');
-fetch('./landingData.json')  // Ajusta la ruta según la plantilla seleccionada
+fetch('/landingData.json')  // Ajusta la ruta según la plantilla seleccionada
 // Inicia el slider en la primera imagen
 let currentReview = 0;
 
